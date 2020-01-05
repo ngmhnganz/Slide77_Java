@@ -45,8 +45,11 @@ public class testPerson {
 				a.setBloodGroup(s);
 				break;
 			}
+			else System.out.println("Nhóm máu không hợp lệ.");
 		}
 		while(true);
+		System.out.println("Chọn giới tính của bạn, bấm 1 nếu là nam, 2 nếu là nữ");
+		
 		System.out.println(a);
 		}
 }
